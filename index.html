@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b5ed7">
+<title>Indian Web Browser</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="flag">🇮🇳</span><span>Indian Web Browser</span></div>
+  <div class="actions">
+    <button id="back" title="Back">←</button><button id="forward" title="Forward">→</button>
+    <button id="reload" title="Reload">↻</button><button id="home" title="Home">⌂</button>
+    <button id="theme" title="Theme">☾</button>
+  </div>
+</header>
+<main class="home">
+  <section class="hero">
+    <div class="logo">INDIAN</div>
+    <h1>Fast. Simple. Secure.</h1>
+    <p>Search the web with Google or open any website.</p>
+    <form id="searchForm" class="search">
+      <input id="address" autocomplete="off" spellcheck="false" placeholder="Search Google or enter a web address" aria-label="Search or address">
+      <button type="submit">Search</button>
+    </form>
+    <div class="chips">
+      <button data-url="https://www.google.com">Google</button>
+      <button data-url="https://www.youtube.com">YouTube</button>
+      <button data-url="https://wikipedia.org">Wikipedia</button>
+      <button data-url="https://www.india.gov.in">India.gov.in</button>
+    </div>
+  </section>
+  <section class="cards">
+    <article><b>🔒 Privacy</b><span>No account is required for this start page.</span></article>
+    <article><b>⚡ Fast</b><span>Lightweight interface and direct navigation.</span></article>
+    <article><b>🇮🇳 Made for India</b><span>Simple design with Indian-first branding.</span></article>
+  </section>
+</main>
+<footer>Indian Web Browser • Open-source project</footer>
+<script src="app.js"></script>
+</body>
+</html>
